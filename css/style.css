@@ -21,7 +21,7 @@
     left: 0;
     overflow-x: hidden;
 }
-#campos .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+#campos .input-group>.custom-file,#campos  .input-group>.custom-select,#campos  .input-group>.form-control,#campos  .input-group>.form-control-plaintext {
 
     min-width: 100px;
     max-width: 100px;
