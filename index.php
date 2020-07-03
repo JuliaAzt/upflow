@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="row d-flex justify-content-center mt-5 fixed-bottom link">                
+            <div class="row d-flex justify-content-center mt-5 link">                
                 <a href="https://www.linkedin.com/in/júlia-azevedo-63a82a159/">Linkedin</a>
             </div>
 
