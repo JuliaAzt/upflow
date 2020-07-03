@@ -11,7 +11,7 @@ $(document).ready(function(){
         if (num >= 2){
             $("#campos").html(function() {
                 for (var i = 0; i < num; i++) {
-                   $( "#campos" ).append('<input type="number" class="w-25 form-control field" required>');
+                   $( "#campos" ).append('<input type="number" class="form-control field" required>');
                 }
             });
         }
