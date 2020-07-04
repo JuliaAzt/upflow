@@ -18,8 +18,8 @@
                               <button class="btn btn-primary" type="button" id="gerar-campos">Gerar campos</button>
                           </div>
                     </div>
-                    <br><span class="aviso1"> Não é possível realizar nenhum cálculo com menos de 2 números</span>
-                    <br><span class="aviso2">Limite máximo de 500 campos </span>
+                    <span class="aviso1"> Não é possível realizar nenhum cálculo com menos de 2 números</span>
+                    <span class="aviso2">Limite máximo de 500 campos </span>
                 </div>
             </div>
 
