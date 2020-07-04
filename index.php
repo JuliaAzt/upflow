@@ -30,10 +30,11 @@
                     <div class="col-md-12 input-group" id="campos">
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center mt-5">
-                    <button name="soma" type="button" class="btn btn-primary" id="soma" disabled>Realizar soma</button> &nbsp;
-                    <button name="sub" type="button" class="btn btn-primary" id="subtracao" disabled>Realizar subtração</button>
-                </div>
+               
+            </div>
+             <div class="row d-flex justify-content-center mt-5">
+                <button name="soma" type="button" class="btn btn-primary" id="soma" disabled>Realizar soma</button> &nbsp;
+                <button name="sub" type="button" class="btn btn-primary" id="subtracao" disabled>Realizar subtração</button>
             </div>
 
             <div class="row d-flex justify-content-center mt-5">
