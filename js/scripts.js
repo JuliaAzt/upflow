@@ -32,8 +32,9 @@ $(document).ready(function(){
     });
 
     $("#subtracao").on('click', function() {
-        var sub = 2*(parseFloat($("#campos").children(0).val()));
-       $("#campos" ).children().each(function() {
+        var sub = (parseFloat($("#campos").children(0).val()));
+       $("#campos" ).children().each(function(i,elem) {
+            if (i==0) {return;}
             sub = sub - parseFloat($(this).val());
         });
        $("#resultado").val(sub);
