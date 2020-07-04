@@ -3,19 +3,22 @@ $(document).ready(function(){
     /* Verifica e cria numero de campos*/
     $("#gerar-campos").on('click', function() {
         
-        $("span.aviso").hide();
+        $("span.aviso1").hide();
+        $("span.aviso2").hide();
         $("#campos").empty();
         $("#resultado").val("");
 
         var num = parseInt($("#numero-campos").val());
         if (num >= 2){
-            $("#campos").html(function() {
-                for (var i = 0; i < num; i++) {
-                   $( "#campos" ).append('<input type="number" class="form-control field" required>');
-                }
-            });
+            if (num<=500) {
+                $("#campos").html(function() {
+                    for (var i = 0; i < num; i++) {
+                       $( "#campos" ).append('<input type="number" class="form-control field" required>');
+                    }
+                });
+            }else{$("span.aviso2").show();}
         }
-        else {$("span.aviso").show();}
+        else {$("span.aviso1").show();}
 
     });
 

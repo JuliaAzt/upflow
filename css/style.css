@@ -12,7 +12,7 @@ body{
 .link > a:hover{
     font-size: 25px;
 }
-.aviso{
+.aviso1, .aviso2{
     display: none;
     color: red;
     font-size:13px; 
