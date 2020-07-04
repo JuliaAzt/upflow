@@ -26,8 +26,8 @@
             </div>
 
             <div class="row d-flex justify-content-center mt-5" >
-                <div class="col-md-12">
-                    <div class="input-group" id="campos">
+                <div class="row">
+                    <div class="col-md-12 input-group" id="campos">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center mt-5">
