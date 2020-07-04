@@ -9,8 +9,8 @@ $(document).ready(function(){
         $("#resultado").val("");
 
         var num = parseInt($("#numero-campos").val());
-        if (num >= 2){
-            if (num<=500) {
+        if (num >= 2){ /* Limite inferior de campos */
+            if (num<=500) { /* Limite superior de campos */
                 $("#campos").html(function() {
                     for (var i = 0; i < num; i++) {
                        $( "#campos" ).append('<input type="number" class="form-control field" required>');
