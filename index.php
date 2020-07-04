@@ -13,7 +13,7 @@
                 <div class="col-md-5">
                     <label>Digite a quantidade de campos envolvidos na operação:</label>
                     <div class="input-group">
-                          <input type="number" class="form-control" min="2" id="numero-campos">
+                          <input type="number" class="form-control" min="2" max="500" id="numero-campos">
                           <div class="input-group-append">
                               <button class="btn btn-primary" type="button" id="gerar-campos">Gerar campos</button>
                           </div>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="row d-flex justify-content-center mt-5 link">                
+            <div class="row d-flex justify-content-center link">                
                 <a href="https://www.linkedin.com/in/júlia-azevedo-63a82a159/">Linkedin</a>
             </div>
 

@@ -18,10 +18,12 @@ body{
     font-size:13px; 
 }
 .link{
-     position: absolute;
+
     right: 0;
     bottom: 0;
     left: 0;
+    position: relative;
+    top: 50vh;
     overflow-x: hidden;
 }
 .input-group>.form-control.field {
