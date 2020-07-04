@@ -12,26 +12,24 @@
             <div class="row d-flex justify-content-center mt-5">
                 <div class="col-md-5">
                     <label>Digite a quantidade de campos envolvidos na operação:</label>
-  
-                        <div class="input-group">
+                    <div class="input-group">
                           <input type="number" class="form-control" min="2" id="numero-campos">
                           <div class="input-group-append">
-                            <button class="btn btn-primary" type="button" id="gerar-campos">Gerar campos</button>
-
+                              <button class="btn btn-primary" type="button" id="gerar-campos">Gerar campos</button>
                           </div>
                            <span class="aviso"> Não é possível realizar nenhum cálculo com menos de 2 números</span>
-                        </div>
-
+                    </div>
                 </div>
             </div>
 
             <div class="container d-flex justify-content-center mt-5" >
                 <div class="row">
                     <div class="col-md-12 input-group" id="campos">
+                        <!-- Campos irao ser dipostos aqui -->
                     </div>
                 </div>
-               
             </div>
+
              <div class="row d-flex justify-content-center mt-5">
                 <button name="soma" type="button" class="btn btn-primary" id="soma" disabled>Realizar soma</button> &nbsp;
                 <button name="sub" type="button" class="btn btn-primary" id="subtracao" disabled>Realizar subtração</button>

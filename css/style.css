@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .link > a{
     font-size: 20px;
     font-weight: bold;
@@ -26,6 +29,8 @@
     min-width: 100px;
     max-width: 100px;
     margin:2px;
-    
 
+}
+label {
+    font-weight: bold;
 }
